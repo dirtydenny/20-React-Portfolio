@@ -10,12 +10,25 @@ function Projects({ projects }) {
         <div className="col-md-4 col-sm-12 each-item " key={item.id}>
           <div className="card">
             <img src={item.image} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">{item.title}</h5>
-                <p className="card-text">{item.description}</p>
-                <a href="{item.deployed}" className="btn btn-primary">Deployed at</a>
-                <a href="{item.repo}" className="btn btn-primary">Github Repo</a>
-              </div>
+            <div className="card-body">
+              <h5 className="card-title">{item.title}</h5>
+              <p className="card-text">{item.description}</p>
+              <a
+                href={item.deployed}
+                target="_blank"
+                className="btn btn-primary" 
+                rel="noreferrer"
+              >
+                Deployed at
+              </a>
+              <a 
+                href={item.repo} 
+                target="_blank" 
+                className="btn btn-primary" 
+                rel="noreferrer">
+                Github Repo
+              </a>
+            </div>
           </div>
         </div>
       ))}
