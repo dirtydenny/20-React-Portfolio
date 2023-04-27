@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/20-React-Portfolio/static/css/main.338df346.css",
+    "main.js": "/20-React-Portfolio/static/js/main.cbf241a0.js",
+    "static/media/triviaGame.png": "/20-React-Portfolio/static/media/triviaGame.b3ba0dcc12e86536fec2.png",
+    "static/media/autoSH.png": "/20-React-Portfolio/static/media/autoSH.be0072995b15a8bed0ac.png",
+    "static/media/resume.pdf": "/20-React-Portfolio/static/media/resume.3ab8039fc256bb4eb53b.pdf",
+    "static/media/me2small.jpg": "/20-React-Portfolio/static/media/me2small.e763ce6dc138ce9d661b.jpg",
+    "static/media/regEx.png": "/20-React-Portfolio/static/media/regEx.77bc8fea5dde21b775ea.png",
+    "static/media/NoSQL.png": "/20-React-Portfolio/static/media/NoSQL.0f0f2a552143aa15ba2a.png",
+    "static/media/jateImg.png": "/20-React-Portfolio/static/media/jateImg.564c214978ca9ac84e12.png",
+    "static/media/passwordGen.png": "/20-React-Portfolio/static/media/passwordGen.9e5003547a8e9a797aac.png",
+    "index.html": "/20-React-Portfolio/index.html",
+    "main.338df346.css.map": "/20-React-Portfolio/static/css/main.338df346.css.map",
+    "main.cbf241a0.js.map": "/20-React-Portfolio/static/js/main.cbf241a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.338df346.css",
+    "static/js/main.cbf241a0.js"
+  ]
+}
