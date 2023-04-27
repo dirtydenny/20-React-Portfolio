@@ -15,7 +15,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           />
         </p>
       </div>
-      <div className="row">
+      <div className="">
         <div className="col col-12">
           <ul className="nav nav-tabs">
             <li className="nav-item">

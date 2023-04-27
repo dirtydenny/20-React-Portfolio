@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "./assets/css/style.css";
 
 export default function PortfolioContainer() {
@@ -28,6 +29,7 @@ export default function PortfolioContainer() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // -- Here we are calling the renderPage method which will return the component */}
       {renderPage()}
+      <Footer></Footer>
     </div>
   );
 }
