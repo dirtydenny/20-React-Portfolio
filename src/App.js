@@ -3,11 +3,12 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import "./assets/css/style.css";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
 
-    // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
 
   const renderPage = () => {
     if (currentPage === "About") {

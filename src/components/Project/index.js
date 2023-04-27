@@ -4,10 +4,10 @@ import React from "react";
 function Projects({ projects }) {
   return (
     <div className="row">
-      {/* Here we map over each grocery item and return a new array of `li` elements that contains the grocery name */}
+      {/* Here we map over each project item and return a new array of `li` elements that contains the project name */}
       {/* When using map you must provide a unique key attribute to each item. Ours is `item.id` */}
       {projects.map((item) => (
-        <div className="col-md-4 col-sm-12" key={item.id}>
+        <div className="col-md-4 col-sm-12 each-item " key={item.id}>
           <div className="card">
             <img src={item.image} className="card-img-top" alt="..." />
               <div className="card-body">
